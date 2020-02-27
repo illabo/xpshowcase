@@ -9,11 +9,20 @@
 /* Begin PBXBuildFile section */
 		49E1EE9C24068044003611A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E1EE9B24068044003611A8 /* AppDelegate.m */; };
 		49E1EE9F24068044003611A8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E1EE9E24068044003611A8 /* SceneDelegate.m */; };
-		49E1EEA224068044003611A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E1EEA124068044003611A8 /* ViewController.m */; };
-		49E1EEA524068044003611A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E1EEA324068044003611A8 /* Main.storyboard */; };
+		49E1EEA224068044003611A8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E1EEA124068044003611A8 /* MainViewController.m */; };
 		49E1EEA724068045003611A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49E1EEA624068045003611A8 /* Assets.xcassets */; };
 		49E1EEAA24068045003611A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E1EEA824068045003611A8 /* LaunchScreen.storyboard */; };
 		49E1EEAD24068045003611A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E1EEAC24068045003611A8 /* main.m */; };
+		49E1EEB624068A6D003611A8 /* WindowCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E1EEB524068A6D003611A8 /* WindowCreator.m */; };
+		49E1EEBD2406996C003611A8 /* MainViewControllerViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E1EEBC2406996C003611A8 /* MainViewControllerViewModel.m */; };
+		49E1EEC12406C4D4003611A8 /* ItemsRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E1EEC02406C4D4003611A8 /* ItemsRepository.m */; };
+		49E1EEC42406CD8B003611A8 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E1EEC32406CD8B003611A8 /* Constants.m */; };
+		49E1EEC8240760E9003611A8 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E1EEC7240760E9003611A8 /* NetworkManager.m */; };
+		49E1EECB24077143003611A8 /* ImageDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E1EECA24077143003611A8 /* ImageDownloadOperation.m */; };
+		49E1EECE2407BB68003611A8 /* MainCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E1EECD2407BB68003611A8 /* MainCollectionViewCell.m */; };
+		49E1EED42407E1B6003611A8 /* MainCollectionFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E1EED32407E1B6003611A8 /* MainCollectionFlow.m */; };
+		49E1EED924080E91003611A8 /* UserSettingsHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E1EED824080E91003611A8 /* UserSettingsHandler.m */; };
+		49E1EEDC240813E4003611A8 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E1EEDB240813E4003611A8 /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +31,32 @@
 		49E1EE9B24068044003611A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		49E1EE9D24068044003611A8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		49E1EE9E24068044003611A8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		49E1EEA024068044003611A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		49E1EEA124068044003611A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		49E1EEA424068044003611A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49E1EEA124068044003611A8 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		49E1EEA624068045003611A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49E1EEA924068045003611A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49E1EEAB24068045003611A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49E1EEAC24068045003611A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49E1EEB524068A6D003611A8 /* WindowCreator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindowCreator.m; sourceTree = "<group>"; };
+		49E1EEB724068A91003611A8 /* WindowCreator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowCreator.h; sourceTree = "<group>"; };
+		49E1EEB824069077003611A8 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		49E1EEBB24069946003611A8 /* MainViewControllerViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewControllerViewModel.h; sourceTree = "<group>"; };
+		49E1EEBC2406996C003611A8 /* MainViewControllerViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewControllerViewModel.m; sourceTree = "<group>"; };
+		49E1EEBF2406C318003611A8 /* ItemsRepository.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemsRepository.h; sourceTree = "<group>"; };
+		49E1EEC02406C4D4003611A8 /* ItemsRepository.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemsRepository.m; sourceTree = "<group>"; };
+		49E1EEC22406CCC3003611A8 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		49E1EEC32406CD8B003611A8 /* Constants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		49E1EEC624076038003611A8 /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		49E1EEC7240760E9003611A8 /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		49E1EEC924077135003611A8 /* ImageDownloadOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageDownloadOperation.h; sourceTree = "<group>"; };
+		49E1EECA24077143003611A8 /* ImageDownloadOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageDownloadOperation.m; sourceTree = "<group>"; };
+		49E1EECC2407BB20003611A8 /* MainCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainCollectionViewCell.h; sourceTree = "<group>"; };
+		49E1EECD2407BB68003611A8 /* MainCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainCollectionViewCell.m; sourceTree = "<group>"; };
+		49E1EED22407E16B003611A8 /* MainCollectionFlow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainCollectionFlow.h; sourceTree = "<group>"; };
+		49E1EED32407E1B6003611A8 /* MainCollectionFlow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainCollectionFlow.m; sourceTree = "<group>"; };
+		49E1EED724080E59003611A8 /* UserSettingsHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserSettingsHandler.h; sourceTree = "<group>"; };
+		49E1EED824080E91003611A8 /* UserSettingsHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserSettingsHandler.m; sourceTree = "<group>"; };
+		49E1EEDA240813C4003611A8 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		49E1EEDB240813E4003611A8 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +89,94 @@
 		49E1EE9924068044003611A8 /* XP Showcase */ = {
 			isa = PBXGroup;
 			children = (
+				49E1EEAC24068045003611A8 /* main.m */,
 				49E1EE9A24068044003611A8 /* AppDelegate.h */,
 				49E1EE9B24068044003611A8 /* AppDelegate.m */,
 				49E1EE9D24068044003611A8 /* SceneDelegate.h */,
 				49E1EE9E24068044003611A8 /* SceneDelegate.m */,
-				49E1EEA024068044003611A8 /* ViewController.h */,
-				49E1EEA124068044003611A8 /* ViewController.m */,
-				49E1EEA324068044003611A8 /* Main.storyboard */,
+				49E1EEBE2406A30B003611A8 /* Data */,
+				49E1EEC524076016003611A8 /* Networking */,
+				49E1EEB4240689F2003611A8 /* Utility */,
+				49E1EEB924069843003611A8 /* View */,
+				49E1EEBA240698D4003611A8 /* ViewModel */,
 				49E1EEA624068045003611A8 /* Assets.xcassets */,
 				49E1EEA824068045003611A8 /* LaunchScreen.storyboard */,
 				49E1EEAB24068045003611A8 /* Info.plist */,
-				49E1EEAC24068045003611A8 /* main.m */,
 			);
 			path = "XP Showcase";
+			sourceTree = "<group>";
+		};
+		49E1EEB4240689F2003611A8 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				49E1EEC22406CCC3003611A8 /* Constants.h */,
+				49E1EEC32406CD8B003611A8 /* Constants.m */,
+				49E1EED724080E59003611A8 /* UserSettingsHandler.h */,
+				49E1EED824080E91003611A8 /* UserSettingsHandler.m */,
+				49E1EEB724068A91003611A8 /* WindowCreator.h */,
+				49E1EEB524068A6D003611A8 /* WindowCreator.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		49E1EEB924069843003611A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49E1EED524080E12003611A8 /* MainScreen */,
+				49E1EED624080E27003611A8 /* SettingsScreen */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		49E1EEBA240698D4003611A8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				49E1EEBB24069946003611A8 /* MainViewControllerViewModel.h */,
+				49E1EEBC2406996C003611A8 /* MainViewControllerViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		49E1EEBE2406A30B003611A8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				49E1EEBF2406C318003611A8 /* ItemsRepository.h */,
+				49E1EEC02406C4D4003611A8 /* ItemsRepository.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		49E1EEC524076016003611A8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				49E1EEC624076038003611A8 /* NetworkManager.h */,
+				49E1EEC7240760E9003611A8 /* NetworkManager.m */,
+				49E1EEC924077135003611A8 /* ImageDownloadOperation.h */,
+				49E1EECA24077143003611A8 /* ImageDownloadOperation.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		49E1EED524080E12003611A8 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				49E1EEB824069077003611A8 /* MainViewController.h */,
+				49E1EEA124068044003611A8 /* MainViewController.m */,
+				49E1EECC2407BB20003611A8 /* MainCollectionViewCell.h */,
+				49E1EECD2407BB68003611A8 /* MainCollectionViewCell.m */,
+				49E1EED22407E16B003611A8 /* MainCollectionFlow.h */,
+				49E1EED32407E1B6003611A8 /* MainCollectionFlow.m */,
+			);
+			name = MainScreen;
+			sourceTree = "<group>";
+		};
+		49E1EED624080E27003611A8 /* SettingsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				49E1EEDA240813C4003611A8 /* SettingsViewController.h */,
+				49E1EEDB240813E4003611A8 /* SettingsViewController.m */,
+			);
+			name = SettingsScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +238,6 @@
 			files = (
 				49E1EEAA24068045003611A8 /* LaunchScreen.storyboard in Resources */,
 				49E1EEA724068045003611A8 /* Assets.xcassets in Resources */,
-				49E1EEA524068044003611A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,24 +248,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49E1EEA224068044003611A8 /* ViewController.m in Sources */,
+				49E1EED42407E1B6003611A8 /* MainCollectionFlow.m in Sources */,
+				49E1EED924080E91003611A8 /* UserSettingsHandler.m in Sources */,
+				49E1EEA224068044003611A8 /* MainViewController.m in Sources */,
+				49E1EECB24077143003611A8 /* ImageDownloadOperation.m in Sources */,
 				49E1EE9C24068044003611A8 /* AppDelegate.m in Sources */,
+				49E1EECE2407BB68003611A8 /* MainCollectionViewCell.m in Sources */,
+				49E1EEBD2406996C003611A8 /* MainViewControllerViewModel.m in Sources */,
+				49E1EEC42406CD8B003611A8 /* Constants.m in Sources */,
+				49E1EEB624068A6D003611A8 /* WindowCreator.m in Sources */,
 				49E1EEAD24068045003611A8 /* main.m in Sources */,
 				49E1EE9F24068044003611A8 /* SceneDelegate.m in Sources */,
+				49E1EEC8240760E9003611A8 /* NetworkManager.m in Sources */,
+				49E1EEC12406C4D4003611A8 /* ItemsRepository.m in Sources */,
+				49E1EEDC240813E4003611A8 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		49E1EEA324068044003611A8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				49E1EEA424068044003611A8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		49E1EEA824068045003611A8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,13 +396,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96ZSYGS638;
 				INFOPLIST_FILE = "XP Showcase/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "app.illabo.XP-Showcase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,13 +414,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96ZSYGS638;
 				INFOPLIST_FILE = "XP Showcase/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "app.illabo.XP-Showcase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
