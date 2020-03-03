@@ -45,8 +45,10 @@ typedef void(^CompletionHandler)(void);
             r!=nil &&
             status>=200 &&
             status<=299){
-            NSString *filePath = [NSHomeDirectory() stringByAppendingPathComponent:itemIndex];
-            [data writeToFile:filePath atomically:YES];
+            NSString *documentDirectory = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES) objectAtIndex:0];
+            NSURL *homeURL = [NSURL fileURLWithPath:documentDirectory isDirectory:YES];
+            NSURL *fileUrl = [homeURL URLByAppendingPathComponent:itemIndex];
+            [data writeToURL:fileUrl atomically:YES];
             [NetworkManager.sharedInstance clearOperationStatusForItemId:itemIndex];
             successHandler();
         } else {

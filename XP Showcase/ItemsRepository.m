@@ -57,7 +57,8 @@
 }
 
 - (UIImage *)getImageById:(NSString *)imageId withCompletion:(void(^)(void))completion {
-    NSString *filePath = [NSHomeDirectory() stringByAppendingPathComponent:imageId];
+    NSString *documentDirectory = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES) objectAtIndex:0];
+    NSString *filePath = [documentDirectory stringByAppendingPathComponent:imageId];
     UIImage *img = [UIImage imageWithContentsOfFile:filePath];
     if (img==nil){
         [NetworkManager.sharedInstance downloadImageForItem:imageId withCompletion:completion];
